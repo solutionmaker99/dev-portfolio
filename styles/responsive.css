@@ -1,8 +1,19 @@
 @media screen and (max-width: 576px) {
   nav,
   .banner,
-  .about {
+  .about,
+  .experience,
+  .resume,
+  footer {
+    margin: 5rem 0 0 0;
     padding: 10px 40px;
+  }
+  nav {
+    margin: 0;
+  }
+  .btn-primary {
+    font-size: 18px;
+    padding: 12px 20px;
   }
   nav > ul {
     display: none;
@@ -42,5 +53,35 @@
   .about ul li {
     padding-bottom: 15px;
     gap: 5px;
+  }
+
+  /* Experience Section */
+
+  .experience-head p {
+    margin: 2rem;
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .experience-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* footer section */
+
+  footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  footer h2 {
+    margin: 1.4rem auto;
+    text-align: center;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+  .btn-div {
+    width: 100%;
+    text-align: center;
   }
 }
