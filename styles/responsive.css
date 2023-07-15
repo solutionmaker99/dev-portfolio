@@ -1,0 +1,46 @@
+@media screen and (max-width: 576px) {
+  nav,
+  .banner,
+  .about {
+    padding: 10px 40px;
+  }
+  nav > ul {
+    display: none;
+  }
+  nav h1 {
+    font-size: 2rem;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .banner-greeting {
+    font-size: 1.5rem;
+  }
+  .banner-title {
+    font-size: 3rem;
+  }
+
+  /* About Section */
+
+  .about {
+    margin: 5rem 0 0 0;
+    padding: 10px 40px;
+    width: 100vw;
+    height: 385px;
+  }
+  .about p {
+    font-size: 1rem;
+    text-align: justify;
+    padding: 0;
+  }
+  .about > ul {
+    padding: 10px 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about ul li {
+    padding-bottom: 15px;
+    gap: 5px;
+  }
+}

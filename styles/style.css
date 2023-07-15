@@ -206,6 +206,14 @@ nav a {
   font-weight: 700;
 }
 
+.education h3,
+.certificates h3 {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
 .resume .summary {
   padding-top: 50px;
   display: flex;
@@ -217,12 +225,37 @@ nav a {
   text-align-last: left;
 }
 
-.education .resume-card {
-  margin-right: 30px;
+.resume-card h4 {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 30px 0;
 }
 
-.resume .btn-primary {
-  margin: auto;
+.resume-card h5 {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.resume-card p {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 20px 0;
+  max-width: 510px;
+}
+
+.resume .flex-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-card hr {
+  width: 558px;
+  height: 1px;
 }
 
 footer {
