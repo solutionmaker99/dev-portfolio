@@ -35,6 +35,10 @@ nav h1 {
   font-weight: 800;
 }
 
+.navigation {
+  display: none;
+}
+
 nav > ul {
   display: flex;
   align-items: center;

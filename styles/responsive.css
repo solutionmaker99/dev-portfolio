@@ -21,8 +21,23 @@
   nav h1 {
     font-size: 2rem;
   }
+  nav i {
+    padding-top: 1rem;
+    font-size: 2rem;
+  }
+  .navigation {
+    display: flex;
+    background-color: blue;
+  }
+
+  .navigation ul {
+    display: flex;
+    flex-direction: column;
+  }
+
   .banner {
     flex-direction: column;
+    padding-bottom: 0;
   }
   .banner-greeting {
     font-size: 1.5rem;
@@ -65,6 +80,20 @@
   .experience-card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* resume section */
+
+  .resume {
+    padding: 10px;
+  }
+  .summary {
+    flex-direction: column;
+  }
+  .education,
+  .certificates {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 
   /* footer section */
